@@ -1,0 +1,171 @@
+
+.background-image-sign {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 60px;
+  z-index: -1;
+  display: block;
+  background-image:  url("../resources/log_back.png");
+  background-size: cover;
+  width: 100%;
+  height: 65rem;
+  filter: brightness(50%);
+}
+.background-image-login {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 60px;
+  z-index: -2;
+  display: flex;
+  background-image:  url("../resources/log_back.png");
+  background-size: cover;
+  width: 100%;
+  height: 55rem;
+  filter: brightness(50%);
+}
+
+.back-image-layer-login{
+  background-image:  url("../resources/login_back_layer.png");
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-size: cover;
+  z-index: -1;
+  width: 100%;
+  height: 1000px;
+
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+  position: fixed;
+}
+/* Track */
+::-webkit-scrollbar-track {
+   background: #555;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+   background: #f1f1f1;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+   background: #888;
+}
+.invalid-feedback{
+    color: rgb(255, 170, 0);
+}
+
+.container-fluid{
+  position: relative;
+  padding: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  right: 0;
+  height: auto;
+}
+.login-card, .signup-card{
+  padding: 2rem;
+    top: 60px;
+    position: relative;
+    width: 30rem;
+    background-color: rgb(34, 34, 34,0.6);
+    border-radius: 10px;
+    box-shadow: rgba(31, 0, 145, 0.35) 0px 5px 15px;
+    
+    top: 60px;
+}
+
+
+.card-title{
+  font-family: 'Playfair Display';
+  font-weight: bolder;
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-img{
+  position: absolute;
+  z-index: 1;
+}
+.login-title{
+  position: relative;
+  z-index: 2;
+  color: rgb(143, 0, 0);
+  font-weight: bolder;
+}
+
+.form-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-control, .name-field, .email-field ,.email-field input, .password-field input, .name-field input{
+  width: 20rem;
+  height: 3rem;
+  border-radius: 10px;
+  border: 0px;
+}
+input{
+  padding-left: 1rem;;
+}
+.name-field, .email-field, .password-field{
+  margin-top: 1.3rem;
+}
+.password-field{
+  display: flex;
+  align-content: center;
+  text-align: center;
+  justify-items: center;
+}
+
+.password-field input{
+  width: 18.8rem;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.password-field span{
+  height: 3rem;
+  color: grey;
+  background-color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border:0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.submit-butn{
+    background-color: transparent;
+    color: white;
+    border: 3px green solid;
+    display: flex;
+    padding: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 1.3rem 0px;
+}
+.submit-butn:hover{
+    background-color: green;
+    animation-delay: 1s;
+}
+
+.signup-message{
+  color:red;
+}
+
+
+
+
+ 

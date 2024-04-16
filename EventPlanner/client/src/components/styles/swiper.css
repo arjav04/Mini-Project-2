@@ -1,0 +1,150 @@
+/* .home .home-slider .swiper-slide{
+    overflow: hidden;
+    border-radius: 1rem;
+    height: 20rem;
+    width: 25rem;
+    margin: .5rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
+.home-slider{
+    display: block;
+    text-align: center;
+    height: 22rem;
+
+}
+
+.home .home-slider .swiper-slide img{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    text-align: center;
+    height: 20rem;
+    background-size: contain;
+    width:100%;
+}
+
+
+.home .home-slider .swiper-slide img:hover{
+        filter: brightness(50%);
+}
+
+.home .home-slider .swiper-slide h4{
+    z-index: 2;
+    display: block;
+    right: auto;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    
+}
+
+.home .home-slider .swiper-slide .button{
+    z-index: 2;
+    box-shadow: rgb(255, 255, 255)x 15px;
+}
+
+
+.home .home-slider .swiper-slide button{
+    border-radius: 5px;
+    color: white;
+    background-color: transparent;
+    border: 0;
+}
+
+    .home .home-slider .swiper-slide:hover button{    
+        box-shadow: rgba(255, 251, 254, 0.4) 5px 5px, rgba(220, 216, 219, 0.3) 10px 10px, rgba(184, 178, 182, 0.2) 15px 15px, rgba(148, 144, 147, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+} */
+
+swiper-container {
+    display: block;
+    text-align: center;
+    height: 22rem;
+  }
+
+  swiper-slide {
+    overflow: hidden;
+    border-radius: 1rem;
+    height: 20rem;
+    width: 16rem;
+    margin: .5rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  swiper-slide img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    text-align: center;
+    height: 20rem;
+    background-size: cover;
+    width:100%;
+    filter: brightness(70%);
+  }
+  swiper-slide img:hover{
+  filter: brightness(100%);
+}
+swiper-slide span{
+  z-index: 2;
+  position: absolute;
+  right: .5rem;
+  top: .5rem;
+}
+
+  swiper-slide h4{
+  z-index: 2;
+    display: block;
+    right: auto;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+  }
+
+  swiper-slide .button{
+    z-index: 2;
+    box-shadow: rgb(255, 255, 255)x 15px;
+  }
+
+
+  swiper-slide button{
+    border-radius: 5px;
+    color: white;
+    background-color: transparent;
+    border: 1px white solid;
+    margin-bottom: 10px;
+  }
+  swiper-slide:hover button:hover{
+    box-shadow: rgba(255, 251, 254, 0.4) 5px 5px, rgba(220, 216, 219, 0.3) 10px 10px, rgba(184, 178, 182, 0.2) 15px 15px, rgba(148, 144, 147, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+
+  }
+
+  swiper-slide .ticket-status{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.529);
+    bottom: 0;
+    z-index: 2;
+  }
+  
+  swiper-slide .ticket-price{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.529);
+    font-size: 2rem;
+    bottom: 10px;
+    z-index: 2;
+  }
+ .icon1{
+  color: grey;
+ }
+ .icon1:hover{
+  color: white;
+ }

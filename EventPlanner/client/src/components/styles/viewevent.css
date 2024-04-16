@@ -1,0 +1,154 @@
+.event-page{
+    position: relative;
+    top: 60px;
+    left: 0px;
+    right: 0px;
+    background-color: #222;
+    color: white;
+    height: 730px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.poster-sidebar{
+    position: fixed;
+    top: 90px;
+    left: 30px;
+    width: 500px;
+}
+
+.poster-sidebar img{
+    position: relative;
+    background-size: contain;
+    width: 100%;
+    height: 650px;
+}
+
+.event-info{
+    margin-left: 550px;
+    width: 100%;
+}
+
+.event-header{
+    text-align: start;
+    padding: 40px;
+    background-color: #444;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.event-footer{
+    text-align: start;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.event-footer-left{
+    text-align: start;
+    width: 50%;
+    padding: 20px;
+    margin: 10px;
+    background-color: #777;
+    border-radius: 5px;
+
+}
+
+.event-footer-right{
+    text-align: start;
+    width: 50%;
+    padding: 20px;
+    margin: 10px;
+    background-color: #777;
+    border-radius: 5px;
+
+}
+.event-footer-right table{
+    margin: auto;
+}
+.event-footer-right table tr:nth-child(even){
+    background-color: #555;
+}
+
+.event-date,.event-type, .event-theme, .event-venue, .ticket-button, .event-contact{
+    margin: 10px;
+}
+
+.event-footer .ticket-button Button{
+    background-color: (0,0,0,0);
+    border: 1px solid;
+}
+
+.event-footer .ticket-button Button:hover{
+    border: 0;
+}
+
+
+
+
+
+.booking-page{
+    height: 750px;
+    background-color: #222;
+    position: relative;
+    top: 60px;
+}
+
+.booking-container{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    margin-top: 30px;
+    background-color: #444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.booking-form{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: start;
+}
+
+.booking-form input,.booking-form button, .booking-form select{
+    margin-bottom: 20px;
+    height: 30px;
+}
+
+.booking-form input{
+    background-color: transparent;
+    border: 1px black solid;
+    border-radius: 5px;
+    color: white;
+    width: 300px
+}
+
+.booking-form select{
+    background-color: #444;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    width: 100px;
+}
+
+.booking-form button{
+    width: 100px;
+
+    background-color: #444;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.booking-form p{
+    margin-left: auto;
+    margin-right: auto;
+}

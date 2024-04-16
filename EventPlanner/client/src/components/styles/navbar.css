@@ -1,0 +1,41 @@
+.navbar,nav {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    height: 60px;
+  }
+
+  .pfp, .pfpname{
+    margin-right: 5px;
+    display: inline-block;
+
+  }
+
+  .navbar-pfp{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-size: auto;
+  }
+
+  .dropdown-menu.show{
+    position: fixed;
+    top:60px;
+    z-index: 999;
+    right: 0;
+    left: auto
+  }
+
+  .d-flex{
+    margin-right: 1rem;
+  }
+  
+  .dropdown{
+    margin-right: 5px;
+  }
+
+  .dropdown-item:hover{
+    background-color: #222;
+  }
